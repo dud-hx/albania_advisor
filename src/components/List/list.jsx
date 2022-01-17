@@ -5,7 +5,7 @@ import useStyles from "./style"
 const List = () => {
     const classes = useStyles();
     const [type, setType] = useState('restaurants');
-    const [rating, setRating] = useState('restaurants');
+    const [rating, setRating] = useState('');
     const places = [{ name: 'First plase' }, { name: 'Best vears' }]
 
     return (<div className={classes.container}>
